@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Change header text color to black */
+.hero h1, .hero p {
+    color: black !important;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #198754; /* Dark Green */
+    color: white;
+    padding: 15px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    font-size: 20px;
+}
